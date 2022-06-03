@@ -1,0 +1,18 @@
+.cart {
+  //   flex-grow: 25%;
+  //   text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #fff;
+  height: 100%;
+  border-radius: 0.5rem;
+  //   margin: 2rem;
+  margin-left: 1rem;
+  .title,
+  .total {
+    text-align: center;
+    // background-color: aquamarine;
+  }
+}

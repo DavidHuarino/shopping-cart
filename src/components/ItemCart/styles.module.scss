@@ -1,0 +1,43 @@
+.cartContainer {
+  display: flex;
+  //   background-color: aqua;
+  position: relative;
+  align-items: center;
+  .imgContainer {
+    width: 4rem;
+    padding: 0.3rem;
+    img {
+      max-width: 100%;
+    }
+  }
+  .titleButtonsContainer {
+    flex: 2;
+    button {
+      border: none;
+      display: inline-block;
+      margin: 0.2rem;
+      padding: 0.3rem 0.5rem;
+      border-radius: 0.3rem;
+      cursor: pointer;
+    }
+  }
+  .totalPriceContainer {
+    flex: 1;
+    background-color: aqua;
+    // margin: 1rem;
+    margin-right: 2rem;
+  }
+  .countItem {
+    position: absolute;
+    right: 0.4rem;
+    top: 0.4rem;
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+}

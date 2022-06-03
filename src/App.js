@@ -1,10 +1,12 @@
 import "./App.css";
+import Home from "./components/Home";
+import { CartProvider } from "./context/CartContext";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Shopping Cart</h1>
-    </div>
+    <CartProvider>
+      <Home />
+    </CartProvider>
   );
 }
 
